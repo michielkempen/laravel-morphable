@@ -4,10 +4,6 @@ namespace MichielKempen\LaravelMorphable\Tests;
 
 use MichielKempen\LaravelMorphable\NoFactoryException;
 use MichielKempen\LaravelMorphable\Tests\Support\TestModelWithoutFactory;
-use MichielKempen\LaravelMorphable\Tests\Support\TypeField\TestModel;
-use MichielKempen\LaravelMorphable\Tests\Support\TypeField\TypeAModel;
-use MichielKempen\LaravelMorphable\Tests\Support\TypeField\TypeBModel;
-use MichielKempen\LaravelMorphable\Tests\Support\TypeField\TypeCModel;
 
 class MorphableTest extends TestCase
 {

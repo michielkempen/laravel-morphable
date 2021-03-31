@@ -7,10 +7,6 @@ use MichielKempen\LaravelMorphable\MorphableModelFactory;
 
 class ModelFactory implements MorphableModelFactory
 {
-    /**
-     * @param string $type
-     * @return Model
-     */
     public static function create(string $type): Model
     {
         $mapping = [
